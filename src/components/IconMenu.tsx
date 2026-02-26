@@ -12,13 +12,13 @@ import {
 } from 'lucide-react';
 
 const MENU_ITEMS = [
-  { name: "Mobile Legends", image: "/ICON/ML.jpg", color: "bg-black" },
-  { name: "Free Fire", image: "/ICON/FF.png", color: "bg-black" },
-  { name: "Genshin Impact", image: "/ICON/GENSHIN.png", color: "bg-black" },
-  { name: "Valorant", image: "/ICON/VALORANT.jpg", color: "bg-black" },
-  { name: "Steam Voucher", image: "/ICON/STEAM.jpg", color: "bg-black" },
-  { name: "Roblox Games", image: "/ICON/ROBLOX.png", color: "bg-black" },
-  { name: "Steam Key", image: "/ICON/STEAM KEY.jpeg", color: "bg-black" },
+  { name: "Mobile Legends", image: "https://i.pinimg.com/736x/c9/13/7e/c9137e7a2879f90e22df9fc5cd3bf85f.jpg", color: "bg-black" },
+  { name: "Free Fire", image: "https://static.vecteezy.com/system/resources/previews/020/190/457/non_2x/freefire-logo-freefire-icon-free-free-vector.jpg", color: "bg-black" },
+  { name: "Genshin Impact", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQsLkt7THAnbL1cv3OoCQT5uWLn82gkvi0w&s", color: "bg-black" },
+  { name: "Valorant", image: "https://i.pinimg.com/736x/cf/ae/88/cfae886e263126f685510e2f45b82970.jpg", color: "bg-black" },
+  { name: "Steam Voucher", image: "https://seagm-media.seagmcdn.com/item_480/288.png", color: "bg-black" },
+  { name: "Roblox Games", image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Roblox_Logo_2022.jpg", color: "bg-black" },
+  { name: "Steam Key", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9p563bhRpuc3e1uqqEWmaDCiTV7PTXCuTA&s", color: "bg-black" },
 ];
 
 export const IconMenu = ({ onSelect }: { onSelect: (name: string) => void }) => {
